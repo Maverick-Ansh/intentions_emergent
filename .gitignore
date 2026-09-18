@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+*.egg-info/
+
+# data + artifacts
+data/raw/*
+data/synth/*
+!data/**/.gitkeep
+results/**/*.csv
+results/**/*.json
+!results/**/.gitkeep
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+wandb/
+
+# secrets
+.env
+*.key
